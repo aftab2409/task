@@ -1,0 +1,399 @@
+body{
+	margin:0px;
+	padding:0px
+}
+header{
+		background-color:#415ba9;
+				height:800px;
+				padding:100px;
+			}
+.conatainer{
+		display:flex;
+		border:10px solid#456de6;
+		padding:40px;
+		background-color:#1c347d;
+			
+			}
+.logo-menu{
+			flex:1;
+			}
+.header-menu{
+	
+			flex:2;
+			}
+li{
+	display:inline-block;
+}			
+			
+li a, .dropbttn {
+	  display: inline-block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	font-size:24px
+}
+
+li a:hover, .dropdown:hover .dropbttn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.drop-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .drop-content {
+  display: block;
+}
+.headeritem{
+	text-align:center;
+	color:white;
+	display:grid;
+	grid-template-columns:50% 50%;
+	
+	
+}
+.header-item1 h1{
+	font-size: 3.5em;
+}
+.header-item1 h2{
+	font-size:2em;
+	padding-top:20px;
+}
+
+
+.header-item1{
+	padding-top:100px;
+	padding-bottom:40px;
+	font-family:roboto;
+
+	
+}
+.header-item1 button{
+	padding:10px 20px;
+	font-size:20px;
+	background-color:#ffff;
+	border-radius:10px 10px 10px 10px;
+	margin-top:30px;
+	
+}
+.header-img{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.mainnav{
+	background-color:#fafafa;
+	margin:0px;
+	padding:0px;
+	padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+	
+}
+.main-nav{
+	text-align:center;
+	
+}
+.main-nav h1{
+	font-size:3.5em;
+	text-align:center;
+	font-family:roboto;
+	
+}
+.main-nav h2{
+	text-align:center;
+	font-size:2em;
+	font-family:roboto;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-nav p{
+	text-align: center;
+    font-size: 20px;
+	
+}
+.nav-content{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+}
+.nav1{
+text-align:center;
+}
+.nav2{
+	text-align:center;
+}
+.nav3{
+	text-align:center;
+}
+.nav4{
+	text-align:center;
+	font-size:20px;
+}
+section{
+	display:flex;
+    HEIGHT: 500PX;
+    BACKGROUND: #415ba9;
+    COLOR: WHITE;
+	
+}
+.left-section{
+	flex:1;
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+	font-family:sans-serif;
+	font-size:18px;
+	
+}
+.right-section{
+	flex:1;
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+	font-family: sans-serif;
+	font-size:18px
+	
+}
+.left-section h2{
+	    font-size: 2.5em;
+}
+.left-section h3{
+		font-size:2em;
+		
+}
+.right-section h2{
+	    font-size: 2.5em;
+}
+.right-section h3{
+	font-size:2em;
+	
+}
+.left-section button{
+	padding: 10px 20px;
+    background-color: #03a9f4;
+    border-radius: 10px 10px;
+    COLOR: WHITE;
+    FONT-SIZE: 1.25EM;
+    MARGIN-TOP: 30PX;
+}
+.right-section button{
+	 padding: 10px 20px;
+    background-color: #03a9f4;
+    border-radius: 10px 10px;
+    COLOR: WHITE;
+    FONT-SIZE: 1.25EM;
+    MARGIN-TOP: 30PX;
+}
+main{
+	background-color:#fafafa
+}
+.main-container{
+	display:grid;
+	grid-template-columns:70% 30%;
+	height:1000px;
+	padding:40px;
+}
+.post-contant{
+	display:grid;
+	grid-template-columns:30% 70%;
+	
+	
+}
+.content-post{
+	padding-top: 40px;
+    margin-left: 20px;
+}
+.post-contant p{
+	font-size: 1.25em;
+    font-family: roboto;
+    text-align: left;
+
+}
+.main-left{
+	margin-left:50px;
+}
+.leftimg-post{
+}
+.left-post{
+    font-size: 1.25em;
+    font-family: roboto;
+}
+.bttn{
+	PADDING: 10PX 20PX;
+    FONT-SIZE: 1.25EM;
+    BACKGROUND-COLOR: #01acf9;
+    COLOR: WHITE;
+    MARGIN-TOP: 60PX;
+    BORDER-RADIUS: 10PX 10PX 10PX 10PX;
+}
+footer{
+	height:400px;
+	background-color:darkblue;
+}
+.main-footer{
+	display:grid;
+	grid-template-columns:25% 25% 25% 25%
+}
+.logo-footer{
+	text-align:center;
+	padding-top:30px;
+}
+.logo-footer p{
+	color:#ffff;
+	font-size:1.25em;
+	
+}
+.menu-footer1{
+	text-align:center;
+}
+.menu-footer2{
+	text-align:center;
+}
+.menu-footer3{
+	text-align:center;
+}
+.menu-footer1 li {
+	display:block;
+	
+}
+.menu-footer2 li {
+	display:block;
+}
+.menu-footer3 li {
+	display:block;
+}
+h4{
+	font-family:roboto;
+	font-size:1.25em;
+	color:white
+}
+.main-section{
+	display:grid;
+	grid-template-columns:30% 70%;
+}
+.sub-section{
+	    margin: 40px;
+    padding: 40px;
+}
+.sub-head h3{
+	font-size: 2.5em;
+    font-family: roboto;
+    border-bottom: double;
+}
+.sub-head p{
+	font-size:1.25em;
+	font-family:roboto;
+	padding-top:30px;
+	
+}
+.sub-head button{
+	color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: darkblue;
+	margin-top:30px;
+}
+.left-side{
+	background-color:#e8e5e5
+}
+.left-side-main{
+	    margin: 40px;
+    padding: 40px;
+}
+.left-side-main h2{
+	font-size: 2.25em;
+	font-family:roboto;
+	margin-block-end: 0px;
+}
+.left-side-main h5{
+	font-size:1.89em;
+	border-bottom:double;
+    margin-block-start: 00.67em;
+}
+.left-side-main h3{
+	    font-size: 2em;
+    font-family: roboto;
+    
+}
+.left-side-main p{
+	    font-size: 1.25em;
+    font-family: roboto;
+}
+
+
+.right-side-section{
+	display:grid;
+	grid-template-columns:70% 30%
+}
+.right-head{
+	 margin: 40px;
+    padding: 40px;
+}
+.right-head h3{
+	font-size: 2.5em;
+    font-family: roboto;
+    border-bottom: double;
+}
+.right-head p{
+	font-size:1.25em;
+	font-family:roboto;
+	padding-top:30px;
+	
+}
+.right-head button{
+	color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: darkblue;
+	margin-top:30px;
+}
+.right-side{
+	background-color:#e8e5e5
+}
+.sub-section{
+	    margin: 40px;
+    padding: 40px;
+}
+.sub-section h2{
+	font-size: 2.25em;
+	font-family:roboto;
+	margin-block-end: 0px;
+}
+.sub-section h5{
+	font-size:1.89em;
+	border-bottom:double;
+    margin-block-start: 00.67em;
+}
+.sub-section h3{
+	    font-size: 2em;
+    font-family: roboto;
+    
+}
+.sub-section p{
+	    font-size: 1.25em;
+    font-family: roboto;
+}
+.no-side{
+	display:grid;
+}
